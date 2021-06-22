@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+
+/* パーツ */
+
+p{
+
+}
+
+a{
+  text-decoration: none;
+   color: #4b4b4b;
+}
+
+h1{
+  margin: 0; padding: 0;
+  font-size: 30px;
+
+}
+
+h2{
+
+}
+
+ul{
+  list-style: none;
+   margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 0 0 20px;
+  font-size: 20px;
+
+}
+
+.text-center{
+  text-align: center;
+
+}
+
+.section_bottom{
+  margin-bottom: 20px;
+
+}
+
+
+
+/* 画像系 */
+
+img{
+  width: 100%;
+}
+
+/*  */
+
+
+header{
+  padding: 30px 4% 10px;
+   position: relative;
+   top: 0;
+   height: 150px;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+nav{
+  margin: 0 0 0 auto;
+
+}
+
+.pc-nav{
+  
+
+
+}
+
+.container{
+
+}
+
+.fv{
+  margin-bottom: 100px;
+}
+
+.profile{
+  margin-bottom: 100px;
+ 
+}
+
+.pro{
+  width: 80%;
+  margin: auto;
+  background-color: gainsboro;
+  padding: 30px;
+  
+}
+
+.pro h2{
+    font-size: 20px;
+}
+
+.pro p{
+  font-size: 15px;
+  line-height: 1.9;
+
+
+}
+
+.myskill{
+  width: 920px;
+  margin: 0 auto 130px auto;
+  padding: 0;
+}
+
+
+.myskill section{
+  float: left;
+    width: 280px;
+    height: auto;
+    margin-right: 40px;
+  }
+
+.myskill section.last{
+  margin-right: 0;
+}
+
+
+/* .bg .bg-wrap {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+.bg.is-animated .bg-wrap::before {
+  animation: bg 2.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: left center;
+}
+.bg .bg-wrap .inn {
+  color: #fff;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 5px 15px;
+  position: relative;
+  z-index: 1;
+}
+ 
+@keyframes bg {
+  0% {
+    opacity: 0;
+    transform: scaleX(0) translateX(-5%);
+  }
+  30% {
+    transform: scaleX(1) translateX(0);
+  }
+  100% {
+    transform: scaleX(1) translateX(0);
+  }
+  30%, 100% {
+    opacity: 1;
+  }
+} */
