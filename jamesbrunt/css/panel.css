@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+
+
+.tab_panel{
+  display:none;
+  animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+.tab_panel.is-show{
+  display:block;
+  animation-name:fadeIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+    
+}
+   
